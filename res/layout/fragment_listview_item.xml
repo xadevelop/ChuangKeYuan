@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <!--  ListView最左边的缩略图 -->
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/guide_1"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读万卷书，行万里路"
+        android:textColor="#040404"
+        android:textSize="15dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/list_image"
+         />
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#343434"
+        android:textSize="10dp"
+        android:text="少壮不努力，老大徒伤悲"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_toEndOf="@+id/list_image" />
+</RelativeLayout>

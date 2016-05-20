@@ -1,65 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-    <LinearLayout
-    android:orientation="vertical"
-    android:layout_height="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
+    android:layout_height="match_parent"
+    android:orientation="vertical">
     <FrameLayout
-        android:layout_height="150dp"
-        android:layout_width="match_parent">
-
-    <android.support.v4.view.ViewPager
-        android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:id="@+id/vp_fragment_viewpager"/>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_height="35dp"
+        android:layout_height="150dp">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_fragment_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:background="#33000000"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中国家庭院校园区域名字体现"
+                android:textColor="@android:color/white" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+                <View
+                    android:id="@+id/v_dot0"
+                    style="@style/DotStyle"
+                    android:background="@drawable/dot_focused" />
+                <View
+                    android:id="@+id/v_dot1"
+                    style="@style/DotStyle" />
+                <View
+                    android:id="@+id/v_dot2"
+                    style="@style/DotStyle" />
+                <View
+                    android:id="@+id/v_dot3"
+                    style="@style/DotStyle" />
+                <View
+                    android:id="@+id/v_dot4"
+                    style="@style/DotStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <ListView
+        android:id="@+id/lv"
         android:layout_width="match_parent"
-        android:gravity="center"
-        android:background="#33000000"
-        android:layout_gravity="bottom">
-
-    <TextView
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:id="@+id/tv_title"
-        android:textColor="@android:color/white"
-        android:text="中国家庭院校园区域名字体现"/>
-
-    <LinearLayout
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_marginTop="3dp">
-
-    <View
-        android:id="@+id/v_dot0"
-        android:background="@drawable/dot_focused"
-        style="@style/DotStyle"/>
-
-    <View
-        android:id="@+id/v_dot1"
-        style="@style/DotStyle"/>
-
-    <View
-        android:id="@+id/v_dot2"
-        style="@style/DotStyle"/>
-
-    <View
-        android:id="@+id/v_dot3"
-        style="@style/DotStyle"/>
-
-    <View
-        android:id="@+id/v_dot4"
-        style="@style/DotStyle"/>
-
-</LinearLayout>
-
-</LinearLayout>
-
-</FrameLayout>
-
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        >
+    </ListView>
 </LinearLayout>
