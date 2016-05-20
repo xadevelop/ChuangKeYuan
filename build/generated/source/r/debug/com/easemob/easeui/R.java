@@ -293,9 +293,9 @@ public final class R {
 		public static final int ee_7 = 0x7f0200b3;
 		public static final int ee_8 = 0x7f0200b4;
 		public static final int ee_9 = 0x7f0200b5;
-		public static final int ic_launcher = 0x7f020143;
-		public static final int voice_from_icon = 0x7f020185;
-		public static final int voice_to_icon = 0x7f020186;
+		public static final int ic_launcher = 0x7f02014d;
+		public static final int voice_from_icon = 0x7f020190;
+		public static final int voice_to_icon = 0x7f020191;
 	}
 	public static final class id {
 		public static final int alert_message = 0x7f0b0015;

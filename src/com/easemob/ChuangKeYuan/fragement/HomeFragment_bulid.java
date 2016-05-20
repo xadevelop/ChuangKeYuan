@@ -1,21 +1,17 @@
 package com.easemob.ChuangKeYuan.fragement;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Parcelable;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.Button;
+import android.widget.GridView;
 import android.widget.ImageView;
-import android.widget.ListView;
+import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
 import com.easemob.ChuangKeYuan.R;
@@ -23,6 +19,7 @@ import com.easemob.ChuangKeYuan.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -30,35 +27,51 @@ import java.util.concurrent.TimeUnit;
 
 public class HomeFragment_bulid extends Fragment {
 
-	private ViewPager mViewPager; // android-support-v4中的滑动组件
-	private List<ImageView> imageViews; // 滑动的图片集合
-
-	private String[] titles; // 图片标题
-	private int[] imageResId; // 图片ID
-	private List<View> dots; // 图片标题正文的那些点
+	/**
+	 * ViewPager
+	 */
+	private ViewPager mViewPager;
+	// 滑动的图片集合
+	private List<ImageView> imageViews;
+	// 图片标题
+	private String[] titles;
+	// 图片ID
+	private int[] imageResId;
+	// 图片标题正文的那些点
+	private List<View> dots;
 
 	private TextView tv_title;
-	private int currentItem = 0; // 当前图片的索引号
+	// 当前图片的索引号
+	private int currentItem = 0;
 
 	private ScheduledExecutorService scheduledExecutorService;
 	// 切换当前显示的图片
 	private Handler handler = new Handler() {
 		public void handleMessage(android.os.Message msg) {
-			mViewPager.setCurrentItem(currentItem);// 切换当前显示的图片
+			// 切换当前显示的图片
+			mViewPager.setCurrentItem(currentItem);
 		}
 	};
+	//GridView
+	private GridView mGridView;
+	private List<Map<String, Object>> data_list;
+	private SimpleAdapter sim_adapter;
 
-	private ListView mListView;
-	//定义一个动态数组
-	ArrayList<HashMap<String, Object>> listItem;
+	// 图片封装为一个数组
+	private int[] icon = { R.drawable.gv_1, R.drawable.gv_2,
+			R.drawable.gv_3, R.drawable.gv_4, R.drawable.gv_5,
+			R.drawable.gv_6, R.drawable.gv_7, R.drawable.gv_8,
+			R.drawable.gv_9, R.drawable.gv_10 };
+	//文字封装为一个数组
+	private String[] text = { "博览群书","学富五车","博闻强识","博学多才","满腹经纶","博古通今","汗牛充栋","才高八斗","手不释卷","孜孜不倦"};
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 							 Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_home_child, null);
-
-		initListView(view);
-
+		//初始化GridView
+		initGridView(view);
+		//ViewPager
 		imageResId = new int[]{R.drawable.a, R.drawable.b, R.drawable.c, R.drawable.d, R.drawable.e};
 		titles = new String[imageResId.length];
 		titles[0] = "巩俐不低俗，我就不能低俗";
@@ -88,95 +101,42 @@ public class HomeFragment_bulid extends Fragment {
 		tv_title.setText(titles[0]);
 
 		mViewPager = (ViewPager) view.findViewById(R.id.vp_fragment_viewpager);
-		mViewPager.setAdapter(new MyAdapter());// 设置填充ViewPager页面的适配器
+		// 设置填充ViewPager页面的适配器
+		mViewPager.setAdapter(new MyAdapter());
 		// 设置一个监听器，当ViewPager中的页面改变时调用
 		mViewPager.setOnPageChangeListener(new MyPageChangeListener());
 		return view;
 	}
 
-	private void initListView(View view) {
-		mListView = (ListView) view.findViewById(R.id.lv);
-		mListView.setAdapter(new ListViewAdapter(getContext()));
-
-		//为ListView添加点击事件
-		mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-			@Override
-			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-				//在LogCat中输出信息
-				Log.v("MyListViewBase", "你点击了ListView条目" + position);
-			}
-		});
+	/**
+	 * 初始化GridView
+	 */
+	private void initGridView(View view) {
+		mGridView = (GridView) view.findViewById(R.id.gv);
+		//新建List
+		data_list = new ArrayList<Map<String, Object>>();
+		//获取数据
+		getData();
+		//新建适配器
+		String [] from ={"image","text"};
+		int [] to = {R.id.image,R.id.text};
+		sim_adapter = new SimpleAdapter(getContext(), data_list, R.layout.fragment_gridview_item, from, to);
+		//配置适配器
+		mGridView.setAdapter(sim_adapter);
 	}
 
-	//添加一个得到数据的方法，方便使用
-	private ArrayList<HashMap<String, Object>> getDate() {
-
-		ArrayList<HashMap<String, Object>> listItem = new ArrayList<HashMap<String, Object>>();
-		//为动态数组添加数据
-		for (int i = 0; i < 30; i++) {
-			HashMap<String, Object> map = new HashMap<String, Object>();
-			map.put("ItemTitle", "第" + i + "行");
-			map.put("ItemText", "这是第" + i + "行");
-			listItem.add(map);
+	public List<Map<String, Object>> getData(){
+		//cion和text的长度是相同的，这里任选其一都可以
+		for(int i=0;i<icon.length;i++){
+			Map<String, Object> map = new HashMap<String, Object>();
+			map.put("image", icon[i]);
+			map.put("text", text[i]);
+			data_list.add(map);
 		}
-		return listItem;
+		return data_list;
 	}
 
-	private class ListViewAdapter extends BaseAdapter {
-
-		//得到一个LayoutInfalter对象用来导入布局
-		private LayoutInflater mInflater;
-
-		//构造函数
-		public ListViewAdapter(Context context) {
-			this.mInflater = LayoutInflater.from(context);
-		}
-
-		@Override
-		public int getCount() {
-			//返回数组的长度
-			return getDate().size();
-		}
-
-		@Override
-		public Object getItem(int position) {
-			return null;
-		}
-
-		@Override
-		public long getItemId(int position) {
-			return 0;
-		}
-
-		@Override
-		public View getView(int position, View convertView, ViewGroup parent) {
-			ViewHolder holder;
-			if (convertView == null) {
-				holder = new ViewHolder();
-				convertView = mInflater.inflate(R.layout.fragment_listview_item, null);
-				 //得到各个控件的对象
-				holder.title = (TextView) convertView.findViewById(R.id.title);
-				holder.text = (TextView) convertView.findViewById(R.id.des);
-				//绑定ViewHolder对象
-				convertView.setTag(holder);
-			} else {
-				//取出ViewHolder对象
-				holder = (ViewHolder) convertView.getTag();
-				//设置TextView显示的内容，即我们存放在动态数组中的数据
-				holder.title.setText(getDate().get(position).get("ItemTitle").toString());
-				holder.text.setText(getDate().get(position).get("ItemText").toString());
-			}
-			return convertView;
-		}
-	}
-		//存放控件
-		public final class ViewHolder {
-			public TextView title;
-			public TextView text;
-			public Button bt;
-		}
-
-		@Override
+	@Override
 		public void onStart() {
 			scheduledExecutorService = Executors.newSingleThreadScheduledExecutor();
 			// 当Activity显示出来后，每两秒钟切换一次图片显示
