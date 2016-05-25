@@ -21,15 +21,15 @@
     <RadioButton
         android:id="@+id/rbtn_homeactivity_home"
         style="@style/RadioButtonStyle"
-        android:background="@drawable/shouye"
+        android:background="@drawable/selector_home_tv_home"
         android:checked="true"/>
     <RadioButton
         android:id="@+id/rbtn_homeactivity_find"
-        android:background="@drawable/xiu"
+        android:background="@drawable/selector_home_tv_show"
         style="@style/RadioButtonStyle"/>
     <RadioButton
         android:id="@+id/rbtn_homeactivity_my"
-        android:background="@drawable/wo"
+        android:background="@drawable/selector_home_tv_my"
         style="@style/RadioButtonStyle"/>
 </RadioGroup>
 

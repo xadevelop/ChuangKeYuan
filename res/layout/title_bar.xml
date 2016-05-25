@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="48dp"
-    android:background="#3AB2FF">
+    android:background="@drawable/dilan_up"
+    >
 
     <TextView
         android:id="@+id/tv_titlebar_title"
@@ -12,7 +13,7 @@
         android:layout_centerInParent="true"
         android:layout_marginLeft="10dp"
         android:text="@string/radiobutton_home"
-        android:textColor="@android:color/white"
+        android:textColor="@color/black_title"
         android:textSize="30sp" />
 
     <TextView
@@ -23,7 +24,7 @@
         android:layout_centerInParent="true"
         android:layout_marginLeft="10dp"
         android:text="@string/Text_back"
-        android:textColor="@android:color/white"
+        android:textColor="@color/black_title"
         android:textSize="15sp"
         android:visibility="gone" />
 
@@ -34,7 +35,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
         android:text="@string/radiobutton_find"
-        android:textColor="@android:color/white"
+        android:textColor="@color/black_title"
         android:textSize="30sp"
         android:visibility="gone"
         />
@@ -47,7 +48,7 @@
         android:layout_marginRight="5dp"
         android:layout_toLeftOf="@+id/tv_titlebar_download"
         android:text="@string/Text_record"
-        android:textColor="@android:color/white"
+        android:textColor="@color/black_title"
         android:textSize="15sp" />
 
     <TextView
@@ -58,7 +59,7 @@
         android:layout_marginRight="5dp"
         android:layout_toLeftOf="@+id/tv_titlebar_search"
         android:text="@string/Text_download"
-        android:textColor="@android:color/white"
+        android:textColor="@color/black_title"
         android:textSize="15sp" />
 
     <TextView
@@ -69,7 +70,7 @@
         android:layout_marginRight="5dp"
         android:layout_toLeftOf="@+id/tv_titlebar_adress"
         android:text="@string/Text_search"
-        android:textColor="@android:color/white"
+        android:textColor="@color/black_title"
         android:textSize="15sp" />
 
     <TextView
@@ -80,7 +81,7 @@
         android:layout_centerInParent="true"
         android:layout_marginRight="5dp"
         android:text="@string/Text_adress"
-        android:textColor="@android:color/white"
+        android:textColor="@color/black_title"
         android:textSize="15sp" />
 
 </RelativeLayout>
