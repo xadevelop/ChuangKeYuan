@@ -11,7 +11,7 @@
         >
     </FrameLayout>
     <RadioGroup
-        android:background="#000000"
+        android:background="@drawable/dilan"
         android:layout_height="48dp"
         android:layout_width="match_parent"
         android:gravity="center"
@@ -20,16 +20,16 @@
         android:layout_alignParentBottom="true">
     <RadioButton
         android:id="@+id/rbtn_homeactivity_home"
-        android:text="@string/radiobutton_home"
         style="@style/RadioButtonStyle"
+        android:background="@drawable/shouye"
         android:checked="true"/>
     <RadioButton
         android:id="@+id/rbtn_homeactivity_find"
-        android:text="@string/radiobutton_find"
+        android:background="@drawable/xiu"
         style="@style/RadioButtonStyle"/>
     <RadioButton
         android:id="@+id/rbtn_homeactivity_my"
-        android:text="@string/radiobutton_my"
+        android:background="@drawable/wo"
         style="@style/RadioButtonStyle"/>
 </RadioGroup>
 

@@ -43,6 +43,7 @@ public class HelpActivity extends Activity implements View.OnClickListener{
 
         mTitle.setVisibility(View.GONE);
         mBack.setVisibility(View.VISIBLE);
+        mDes.setVisibility(View.VISIBLE);
         mDes.setText("任务详情");
         mRecord.setVisibility(View.GONE);
         mDownload.setVisibility(View.GONE);

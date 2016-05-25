@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
+    format="7"
+    timestamp="13727757587836" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build timestamp="12806918618688" >
+        <artifact
+            location="W:\AS-Works\ChuangKeYuan\build\outputs\apk\ChuangKeYuan-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="13267387344728" >
+        <artifact
+            location="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="13692304208345" >
+        <artifact
+            location="W:\AS-Works\ChuangKeYuan\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="13727757587836" />
+
+</instant-run>

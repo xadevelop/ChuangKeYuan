@@ -1,0 +1,3 @@
+CHANGED,W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\easemob\ChuangKeYuan\ui\HelpActivity$override.class
+CHANGED,W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\easemob\ChuangKeYuan\ui\ResponsibleActivity$override.class
+CHANGED,W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

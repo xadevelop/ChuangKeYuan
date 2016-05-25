@@ -35,7 +35,9 @@
         android:layout_centerInParent="true"
         android:text="@string/radiobutton_find"
         android:textColor="@android:color/white"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:visibility="gone"
+        />
 
     <TextView
         android:id="@+id/tv_titlebar_record"

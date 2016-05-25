@@ -2,6 +2,7 @@ package com.easemob.ChuangKeYuan.ui;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -34,13 +35,14 @@ public class PlanActivity extends Activity implements View.OnClickListener{
     public TextView mTitle;
     public TextView mMore;
     public TextView mBack;
+    ImageView iv_teach;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //去掉标题栏
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_plan);
+        setContentView(R.layout.activity_build_item);
 
         //初始化ListView
         initListView();
@@ -49,7 +51,8 @@ public class PlanActivity extends Activity implements View.OnClickListener{
     }
 
     private void initListView() {
-        mListView = (ListView) findViewById(R.id.lv_plan);
+        iv_teach = (ImageView) findViewById(R.id.iv_teach);
+        mListView = (ListView) findViewById(R.id.lv_teach);
         mListView.setAdapter(new ListViewAdapter(getApplicationContext()));
 
         //为ListView添加点击事件
@@ -57,9 +60,12 @@ public class PlanActivity extends Activity implements View.OnClickListener{
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //在LogCat中输出信息
+                startActivity(new Intent(PlanActivity.this,FirstTeachActivity.class));
                 Log.v("MyListViewBase", "你点击了ListView条目" + position);
             }
         });
+
+        iv_teach.setImageResource(R.drawable.e);
     }
     //添加一个得到数据的方法，方便使用
     private ArrayList<HashMap<String, Object>> getDate() {
@@ -106,7 +112,7 @@ public class PlanActivity extends Activity implements View.OnClickListener{
             ViewHolder holder;
             if (convertView == null) {
                 holder = new ViewHolder();
-                convertView = mInflater.inflate(R.layout.activity_plan_listview, null);
+                convertView = mInflater.inflate(R.layout.activity_build_item_item, null);
                 //得到各个控件的对象
                 holder.image = (ImageView) convertView.findViewById(R.id.iv_teach_listview);
                 holder.title = (TextView) convertView.findViewById(R.id.tv_teach_listview);

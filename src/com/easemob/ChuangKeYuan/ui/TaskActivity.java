@@ -92,6 +92,7 @@ public class TaskActivity extends FragmentActivity implements View.OnClickListen
 
         mTitle.setVisibility(View.GONE);
         mBack.setVisibility(View.VISIBLE);
+        mDes.setVisibility(View.VISIBLE);
         mDes.setText("任务");
         mRecord.setVisibility(View.GONE);
         mDownload.setVisibility(View.GONE);
@@ -108,7 +109,6 @@ public class TaskActivity extends FragmentActivity implements View.OnClickListen
                 finish();
                 break;
             case R.id.tv_titlebar_adress:
-
                 break;
         }
     }

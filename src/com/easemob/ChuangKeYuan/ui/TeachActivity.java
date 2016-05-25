@@ -40,7 +40,7 @@ public class TeachActivity extends Activity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         //去掉标题栏
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_teach);
+        setContentView(R.layout.activity_build_item);
         //初始化ListView
         initListView();
         //初始化标题栏
@@ -104,7 +104,7 @@ public class TeachActivity extends Activity implements View.OnClickListener{
             ViewHolder holder;
             if (convertView == null) {
                 holder = new ViewHolder();
-                convertView = mInflater.inflate(R.layout.activity_teach_listview, null);
+                convertView = mInflater.inflate(R.layout.activity_build_item_item, null);
                 //得到各个控件的对象
                 holder.image = (ImageView) convertView.findViewById(R.id.iv_teach_listview);
                 holder.title = (TextView) convertView.findViewById(R.id.tv_teach_listview);

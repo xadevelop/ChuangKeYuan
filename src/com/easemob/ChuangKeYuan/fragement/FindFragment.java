@@ -42,7 +42,7 @@ public class FindFragment extends Fragment {
         mSearch = (TextView) view.findViewById(R.id.tv_titlebar_search);
         mAdress = (TextView) view.findViewById(R.id.tv_titlebar_adress);
 
-        mTitle.setVisibility(View.GONE);
+        mTitle.setText("发现");
         mRecord.setVisibility(View.GONE);
         mDownload.setVisibility(View.GONE);
     }

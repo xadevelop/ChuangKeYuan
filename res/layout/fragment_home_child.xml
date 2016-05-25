@@ -5,7 +5,8 @@
     android:orientation="vertical">
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp">
+        android:layout_height="0dp"
+        android:layout_weight="3">
         <android.support.v4.view.ViewPager
             android:id="@+id/vp_fragment_viewpager"
             android:layout_width="match_parent"
@@ -46,10 +47,12 @@
             </LinearLayout>
         </LinearLayout>
     </FrameLayout>
+
     <GridView
         android:id="@+id/gv"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="8"
         android:numColumns="2"
         android:columnWidth="80dp"
         android:stretchMode="columnWidth"
