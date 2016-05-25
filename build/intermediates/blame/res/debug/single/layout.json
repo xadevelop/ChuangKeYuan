@@ -1,0 +1,562 @@
+[
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_contact_with_checkbox.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_row_contact_with_checkbox.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_task.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_title_bar.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_widget_title_bar.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_add_group.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_row_add_group.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_main_botton_tab.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_main_botton_tab.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_group_blacklist.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_group_blacklist.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_recorder_activity.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_recorder_activity.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_bigexpression.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_sent_bigexpression.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\tb_munion_adview.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\tb_munion_adview.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_file.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_received_file.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_contact_list.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_widget_contact_list.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_scroll_tab_item.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_scroll_tab_item.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_child.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\fragment_home_child.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_commom_back_btn.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_commom_back_btn.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_fragment_groups.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_fragment_groups.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_chat.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_fragment_chat.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_emojicon_menu.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_layout_emojicon_menu.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_edit.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_edit.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_fragment_conversation_list.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_fragment_conversation_list.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_file.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_activity_show_file.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_switch_button.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_widget_switch_button.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_add_contact.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_add_contact.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_robots.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_row_robots.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_image.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_context_menu_for_image.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_input_menu.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_widget_chat_input_menu.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_adress.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_adress.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_class.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_class.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_download.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_file.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_sent_file.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon_tab_bar.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_widget_emojicon_tab_bar.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice_call.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_sent_voice_call.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_delete.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_context_menu_for_delete.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_video.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_sent_video.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_expression.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_responsible.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_responsible.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_logout_actionsheet.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_logout_actionsheet.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_menu_item.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_chat_menu_item.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_invite_msg.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_row_invite_msg.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_location.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_context_menu_for_location.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_black_list.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_black_list.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_fragment_chat.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_fragment_chat.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_sent_voice.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guid.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_guid.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_find.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\fragment_find.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_baidumap.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_activity_baidumap.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_primary_menu.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_widget_chat_primary_menu.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_message.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_received_message.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_group_simle_details.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_group_simle_details.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_text.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_context_menu_for_text.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_main.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_main.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_pick_contact_no_checkbox.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_pick_contact_no_checkbox.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_emojicon.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_emojicon.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_expression_gridview.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_expression_gridview.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_new_group.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_new_group.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_grid.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_grid.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_widget_contact_item.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_widget_contact_item.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_new_friends_msg.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_new_friends_msg.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_showvideo_activity.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_showvideo_activity.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_choosevideoactivity.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_choosevideoactivity.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_picture.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_sent_picture.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_offline_push.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_offline_push.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_conversation_item.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_conversation_item.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice_call.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_received_voice_call.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_build.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\fragment_home_build.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tutor.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_tutor.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_group.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_row_group.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_common.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_context_menu_for_common.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_chat_history.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_chat_history.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_update_dialog.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\umeng_update_dialog.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_chat.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_chat.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_firstteacher.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_firstteacher.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_build_item_item.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_build_item_item.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_my.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\fragment_my.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_responsible.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\fragment_responsible.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_chat_neterror_item.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_chat_neterror_item.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_location.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_sent_location.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_bigexpression.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_received_bigexpression.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_revoke_message.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_revoke_message.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_contact.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_contact.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_big_expression.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_big_expression.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_video_call.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_sent_video_call.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_gridview_item.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\fragment_gridview_item.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_voice_call.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_voice_call.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_tutor.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\fragment_home_tutor.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_message.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_sent_message.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_fragment_contact_list.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_fragment_contact_list.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_details.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_details.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_message_list.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_chat_message_list.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_chat_primary_menu.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_layout_chat_primary_menu.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_fragment_conversation_settings.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_fragment_conversation_settings.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_search_bar_with_padding.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_search_bar_with_padding.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_widget_emojicon.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_location.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_received_location.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_group_details.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_group_details.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_search_bar_with_padding.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_search_bar_with_padding.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_parents.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_parents.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\title_teach.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\title_teach.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_search_bar.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_search_bar.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_conversation_list.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_fragment_conversation_list.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_group_pick_contacts.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_group_pick_contacts.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_video.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_context_menu_for_video.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_user_profile.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_user_profile.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_public_groups.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_public_groups.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\tb_munion_aditem.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\tb_munion_aditem.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_register.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_register.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_big_image.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_activity_show_big_image.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_class_item.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_class_item.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_login.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_login.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_picture.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_received_picture.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_firstparents.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_firstparents.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_received_video.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_show_file.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_show_file.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_layout_loading_data.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_layout_loading_data.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_image_grid_fragment.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_image_grid_fragment.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\title_bar.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\title_bar.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video_call.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_received_video_call.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_teacher_listview.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_teacher_listview.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_public_groups_search.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_public_groups_search.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_listview_footer_view.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_listview_footer_view.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_video_call.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_video_call.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_choose_griditem.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_choose_griditem.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_space.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\fragment_home_space.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_parents_listview.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_parents_listview.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_alert_dialog.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_alert_dialog.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_contacts_header.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_contacts_header.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_contact_list.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_fragment_contact_list.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_plan.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_build_item.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_build_item.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_splash.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_splash.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_row_received_voice.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_teacher.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_teacher.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_main_init_view.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_main_init_view.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_voice.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_context_menu_for_voice.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_diagnose.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\em_activity_diagnose.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_voice_recorder.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\layout\\ease_widget_voice_recorder.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_record.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\layout\\activity_record.xml"
+    }
+]

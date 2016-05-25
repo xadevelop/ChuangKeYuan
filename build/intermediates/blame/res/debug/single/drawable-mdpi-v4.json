@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\em_unread_count_bg.9.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-mdpi\\em_unread_count_bg.9.png"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\em_ic_launcher.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-mdpi\\em_ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    }
+]

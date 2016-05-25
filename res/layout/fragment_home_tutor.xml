@@ -33,7 +33,7 @@
             <TextView
                 style="@style/BuildTextViewTitleStyle"
                 android:layout_marginTop="40dp"
-                android:layout_toRightOf="@+id/iv_tutor1"
+                android:layout_toRightOf="@id/iv_tutor1"
                 android:text="创客教师介绍" />
         </RelativeLayout>
 

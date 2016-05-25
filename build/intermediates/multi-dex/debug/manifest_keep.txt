@@ -1,0 +1,71 @@
+-keep class com.easemob.ChuangKeYuan.MyApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.easemob.ChuangKeYuan.ui.MainActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.SplashActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.HomeActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.GuideActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.RecordActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.DownloadActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.SearchActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.AdressActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.TeachActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.FirstTeachActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.PlanActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.DesignActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.TeacherActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.FirstTeacherActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.ParentsActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.FirstParentsActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.TaskActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.ResponsibleActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.HelpActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.ClassActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.ClassActivity_Item { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.HomeAddWorkActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.LoginActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.RegisterActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.ChatActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.AddContactActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.GroupDetailsActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.GroupsActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.ChatRoomDetailsActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.NewGroupActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.ExitGroupDialog { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.GroupPickContactsActivity { <init>(); }
+-keep class com.easemob.easeui.ui.EaseBaiduMapActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.NewFriendsMsgActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.ForwardMessageActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.ContextMenuActivity { <init>(); }
+-keep class com.easemob.easeui.ui.EaseShowBigImageActivity { <init>(); }
+-keep class com.easemob.easeui.ui.EaseShowNormalFileActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.BlacklistActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.PublicGroupsActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.PublicChatRoomsActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.VoiceCallActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.VideoCallActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.GroupSimpleDetailActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.GroupBlacklistActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.PublicGroupsSeachActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.EditActivity { <init>(); }
+-keep class com.easemob.easeui.ui.EaseShowVideoActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.ImageGridActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.RecorderVideoActivity { <init>(); }
+-keep class com.easemob.ChuangKeYuan.ui.UserProfileActivity { <init>(); }
+-keep class com.easemob.chat.StartServiceReceiver { <init>(); }
+-keep class com.umeng.update.net.DownloadingService { <init>(); }
+-keep class com.umeng.update.UpdateDialogActivity { <init>(); }
+-keep class com.easemob.chat.EMChatService { <init>(); }
+-keep class com.easemob.chat.EMMonitorReceiver { <init>(); }
+-keep class com.baidu.location.f { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
+-keep class com.android.tools.fd.** {
+    *;
+}
+-dontnote com.android.tools.fd.**,android.support.multidex.MultiDexExtractor

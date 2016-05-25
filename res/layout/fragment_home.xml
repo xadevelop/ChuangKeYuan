@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
-    <include layout="@layout/title_bar"/>
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar" />
+
     <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
         android:layout_width="match_parent"
         android:layout_height="41dp"
-        android:fadingEdge="none"
         android:background="@android:color/white"
-        android:scrollbars="none"
-        android:id="@+id/horizontalScrollView"
-        >
+        android:fadingEdge="none"
+        android:scrollbars="none">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#33b5e5"
-            >
+            android:background="#33b5e5">
+
             <RadioGroup
                 android:id="@+id/radioGroup"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:orientation="horizontal"
                 android:layout_alignParentTop="true"
-                >
+                android:orientation="horizontal">
+
                 <RadioButton
-                    style="@style/TabRadioButtonStyle"
-                    android:text="@string/radiobutton_recommend"
                     android:id="@+id/btn_recommend"
-                    />
-                <RadioButton
                     style="@style/TabRadioButtonStyle"
-                    android:text="@string/radiobutton_bulid"
+                    android:text="@string/radiobutton_recommend" />
+
+                <RadioButton
                     android:id="@+id/btn_build"
-                    />
-                <RadioButton
                     style="@style/TabRadioButtonStyle"
-                    android:text="@string/radiobutton_tutor"
+                    android:text="@string/radiobutton_bulid" />
+
+                <RadioButton
                     android:id="@+id/btn_tutor"
-                    />
-                <RadioButton
                     style="@style/TabRadioButtonStyle"
-                    android:text="@string/radiobutton_space"
+                    android:text="@string/radiobutton_tutor" />
+
+                <RadioButton
                     android:id="@+id/btn_space"
-                    />
-                <RadioButton
                     style="@style/TabRadioButtonStyle"
-                    android:text="@string/radiobutton_school"
+                    android:text="@string/radiobutton_space" />
+
+                <RadioButton
                     android:id="@+id/btn_school"
-                    />
-                <RadioButton
                     style="@style/TabRadioButtonStyle"
-                    android:text="@string/radiobutton_show"
+                    android:text="@string/radiobutton_school" />
+
+                <RadioButton
                     android:id="@+id/btn_show"
-                    />
-                <RadioButton
                     style="@style/TabRadioButtonStyle"
-                    android:text="@string/radiobutton_research"
+                    android:text="@string/radiobutton_show" />
+
+                <RadioButton
                     android:id="@+id/btn_research"
-                    />
-                <RadioButton
                     style="@style/TabRadioButtonStyle"
-                    android:text="@string/radiobutton_study"
+                    android:text="@string/radiobutton_research" />
+
+                <RadioButton
                     android:id="@+id/btn_study"
-                    />
-                <RadioButton
                     style="@style/TabRadioButtonStyle"
-                    android:text="@string/radiobutton_tool"
+                    android:text="@string/radiobutton_study" />
+
+                <RadioButton
                     android:id="@+id/btn_tool"
-                    />
+                    style="@style/TabRadioButtonStyle"
+                    android:text="@string/radiobutton_tool" />
             </RadioGroup>
+
             <ImageView
                 android:id="@+id/img"
                 android:layout_width="100dp"
                 android:layout_height="4dp"
-                android:background="#33b5e5"
                 android:layout_alignParentBottom="true"
-                />
+                android:background="#33b5e5" />
         </RelativeLayout>
     </HorizontalScrollView>
+
     <android.support.v4.view.ViewPager
         android:id="@+id/vp_homefragment_viewpager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        />
+        android:layout_weight="1" />
 
 </LinearLayout>

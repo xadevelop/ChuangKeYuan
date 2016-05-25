@@ -1694,25 +1694,26 @@ containing a value of this type.
         public static final int BuildImageViewStyle=0x7f08000b;
         public static final int BuildTextViewDesStyle=0x7f08000c;
         public static final int BuildTextViewTitleStyle=0x7f08000d;
-        public static final int DotStyle=0x7f08000e;
+        public static final int ClassTextViewStyle=0x7f08000e;
+        public static final int DotStyle=0x7f08000f;
         /**  模糊 
          */
-        public static final int HeadScale=0x7f08000f;
-        public static final int MyAlertDialog=0x7f080010;
-        public static final int MyDialogStyle=0x7f080011;
+        public static final int HeadScale=0x7f080010;
+        public static final int MyAlertDialog=0x7f080011;
+        public static final int MyDialogStyle=0x7f080012;
         /**  模糊 
          */
-        public static final int MyDialogStyleBottom=0x7f080012;
+        public static final int MyDialogStyleBottom=0x7f080013;
         /**  模糊 
          */
-        public static final int MyDialogStyleTop=0x7f080013;
-        public static final int RadioButtonStyle=0x7f080014;
-        public static final int TabRadioButtonStyle=0x7f080015;
-        public static final int bottom_line_edit_text_style=0x7f080016;
-        public static final int chat_content_date_style=0x7f080017;
-        public static final int chat_text_date_style=0x7f080018;
-        public static final int chat_text_name_style=0x7f080019;
-        public static final int devide_line_eee=0x7f08001a;
+        public static final int MyDialogStyleTop=0x7f080014;
+        public static final int RadioButtonStyle=0x7f080015;
+        public static final int TabRadioButtonStyle=0x7f080016;
+        public static final int bottom_line_edit_text_style=0x7f080017;
+        public static final int chat_content_date_style=0x7f080018;
+        public static final int chat_text_date_style=0x7f080019;
+        public static final int chat_text_name_style=0x7f08001a;
+        public static final int devide_line_eee=0x7f08001b;
         public static final int horizontal_slide=0x7f080001;
         public static final int nornal_style=0x7f080002;
     }

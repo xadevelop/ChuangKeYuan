@@ -3,14 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3">
+
         <android.support.v4.view.ViewPager
             android:id="@+id/vp_fragment_viewpager"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="35dp"
@@ -18,29 +21,36 @@
             android:background="#33000000"
             android:gravity="center"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/tv_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="中国家庭院校园区域名字体现"
                 android:textColor="@android:color/white" />
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp">
+
                 <View
                     android:id="@+id/v_dot0"
                     style="@style/DotStyle"
                     android:background="@drawable/dot_focused" />
+
                 <View
                     android:id="@+id/v_dot1"
                     style="@style/DotStyle" />
+
                 <View
                     android:id="@+id/v_dot2"
                     style="@style/DotStyle" />
+
                 <View
                     android:id="@+id/v_dot3"
                     style="@style/DotStyle" />
+
                 <View
                     android:id="@+id/v_dot4"
                     style="@style/DotStyle" />
@@ -53,11 +63,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="8"
-        android:numColumns="2"
         android:columnWidth="80dp"
-        android:stretchMode="columnWidth"
         android:horizontalSpacing="8dp"
+        android:numColumns="2"
         android:scrollbars="none"
-        >
-    </GridView>
+        android:stretchMode="columnWidth"/>
 </LinearLayout>

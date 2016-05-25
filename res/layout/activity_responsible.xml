@@ -71,6 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
                 android:text="        通过观赏课件，对比讲述，使幼儿了解自己小时候和现在的变化。请幼儿谈一谈：我们小时候是什么样子的，现在又是什么样子的?自己学会的本领？（可以启发幼儿从外部的身高变化，体重和学习，自理等方面比较.）使用自己小时候的物品，使幼儿发现自己与小时候的变化，感受自己长大了。这里有一些东西，是谁的呢？请你们来试一试，穿一穿，看看你发现了什么？"
                 android:textColor="#99000000"
                 android:textSize="16sp" />
@@ -79,7 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="15dp"
                 android:text="截止时间：2016年5月24日"
                 android:textColor="#99000000"
                 android:textSize="16sp" />
