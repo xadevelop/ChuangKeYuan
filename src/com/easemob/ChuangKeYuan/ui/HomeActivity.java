@@ -22,8 +22,17 @@ public class HomeActivity extends FragmentActivity{
     private RadioGroup radioGroup;
     private FragmentManager fragmentManager;
     private FragmentTransaction transaction;
+    /**
+     * 创客园子栏目
+     */
     Fragment homeFragment;
+    /**
+     * 发现子栏目
+     */
     Fragment findFragment;
+    /**
+     * 我的子栏目
+     */
     Fragment myFragment;
 
     @Override
