@@ -1,83 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-<include layout="@layout/title_bar"/>
-   <RelativeLayout
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content">
-    <TextView
-        android:id="@+id/tv1"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:background="#F9D438"
-        android:text="一班"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        />
-       <TextView
-           android:id="@+id/tv2"
-           android:layout_width="140dp"
-           android:layout_height="140dp"
-           android:background="#FF8F84"
-           android:text="二班"
-           android:layout_toRightOf="@+id/tv1"
-           android:gravity="center"
-           android:layout_marginTop="20dp"
-           android:layout_marginLeft="20dp"
-           />
-   </RelativeLayout>
+    <include
+        android:id="@+id/include"
+        layout="@layout/title_bar" />
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    <TextView
-        android:id="@+id/tv3"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:background="#B4DF51"
-        android:text="三班"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        />
-    <TextView
-        android:id="@+id/tv4"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:background="#73D9F3"
-        android:text="四班"
-        android:layout_toRightOf="@+id/tv3"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        />
-    </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    <TextView
-        android:id="@+id/tv5"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:background="#E395E9"
-        android:text="五班"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        />
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:background="#F9D438"
+            android:gravity="center"
+            android:text="一班"
+            android:textColor="#fff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignTop="@id/tv1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@id/tv1"
+            android:layout_toRightOf="@id/tv1"
+            android:background="#FF8F84"
+            android:gravity="center"
+            android:text="二班"
+            android:textColor="#fff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignLeft="@id/tv2"
+            android:layout_alignStart="@id/tv2"
+            android:layout_below="@id/tv2"
+            android:layout_marginTop="30dp"
+            android:background="#73D9F3"
+            android:gravity="center"
+            android:text="四班"
+            android:textColor="#fff"
+            android:textSize="32sp" />
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@id/tv4"
+            android:background="#B4DF51"
+            android:gravity="center"
+            android:text="三班"
+            android:textColor="#fff"
+            android:textSize="32sp" />
+
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv3"
+            android:layout_marginTop="30dp"
+            android:background="#E395E9"
+            android:gravity="center"
+            android:text="五班"
+            android:textColor="#fff"
+            android:textSize="32sp" />
+
         <TextView
             android:id="@+id/tv6"
             android:layout_width="140dp"
             android:layout_height="140dp"
+            android:layout_alignLeft="@id/tv4"
+            android:layout_alignStart="@id/tv4"
+            android:layout_alignTop="@id/tv5"
             android:background="#DC6681"
-            android:text="四班"
-            android:layout_toRightOf="@+id/tv5"
             android:gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            />
+            android:text="六班"
+            android:textColor="#fff"
+            android:textSize="32sp" />
     </RelativeLayout>
-</LinearLayout>
+</RelativeLayout>

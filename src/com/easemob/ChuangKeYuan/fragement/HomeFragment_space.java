@@ -12,6 +12,7 @@ import android.widget.SimpleAdapter;
 
 import com.easemob.ChuangKeYuan.R;
 import com.easemob.ChuangKeYuan.ui.ClassActivity;
+import com.easemob.ChuangKeYuan.ui.HomeAddWorkActivity;
 import com.easemob.ChuangKeYuan.ui.TaskActivity;
 
 import java.util.ArrayList;
@@ -80,6 +81,7 @@ public class HomeFragment_space extends Fragment implements AdapterView.OnItemCl
 				startActivity(new Intent(getActivity().getApplicationContext(), ClassActivity.class));
 				break;
 			case 2:
+				startActivity(new Intent(getActivity().getApplicationContext(), HomeAddWorkActivity.class));
 				break;
 			case 3:
 				break;

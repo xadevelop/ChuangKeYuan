@@ -119,6 +119,10 @@
         <activity android:name="com.easemob.ChuangKeYuan.ui.HelpActivity" />
         <!-- 创客空间 班级小创客 -->
         <activity android:name="com.easemob.ChuangKeYuan.ui.ClassActivity" />
+        <!-- 班级小创客子栏目 -->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.ClassActivity_Item" />
+        <!-- 家庭工作访 -->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.HomeAddWorkActivity" />
         <!-- 登陆 -->
         <activity
             android:name="com.easemob.ChuangKeYuan.ui.LoginActivity"

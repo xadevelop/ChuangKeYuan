@@ -60,7 +60,6 @@ public class HelpActivity extends Activity implements View.OnClickListener{
                 finish();
                 break;
             case R.id.tv_titlebar_adress:
-
                 break;
         }
     }
