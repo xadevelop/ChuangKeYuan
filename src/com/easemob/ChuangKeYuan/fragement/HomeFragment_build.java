@@ -98,8 +98,6 @@ public class HomeFragment_build extends Fragment implements View.OnClickListener
 			case R.id.tv_design_des2:
 				startActivity(new Intent(getActivity().getApplicationContext(), FirstTeachActivity.class));
 				break;
-
-
 		}
 	}
 }
