@@ -12,6 +12,7 @@
     <string name="Text_back">返回</string>
 
     <!--页签-->
+    <string name="radiobutton_recommend">精彩推荐</string>
     <string name="radiobutton_bulid">建设方案</string>
     <string name="radiobutton_research">调查问卷</string>
     <string name="radiobutton_school">创客中学</string>

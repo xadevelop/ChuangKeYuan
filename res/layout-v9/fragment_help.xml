@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="幼儿园美术快乐生长树"
+    android:textColor="@android:color/black"
+    android:textSize="18sp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发布时间：2016年5月24日"
+        android:textColor="#99000000"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+        <Button
+            android:id="@+id/btn_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已完成"
+            android:layout_toRightOf="@+id/tv2"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:background="#8800ff00"
+            android:layout_marginLeft="30dp"
+            android:padding="5dp"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        通过观赏课件，对比讲述，使幼儿了解自己小时候和现在的变化。请幼儿谈一谈：我们小时候是什么样子的，现在又是什么样子的?自己学会的本领？（可以启发幼儿从外部的身高变化，体重和学习，自理等方面比较.）使用自己小时候的物品，使幼儿发现自己与小时候的变化，感受自己长大了。这里有一些东西，是谁的呢？请你们来试一试，穿一穿，看看你发现了什么？"
+        android:textColor="#99000000"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="截止时间：2016年5月24日"
+        android:textColor="#99000000"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

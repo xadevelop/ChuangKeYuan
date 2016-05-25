@@ -27,6 +27,11 @@
                 >
                 <RadioButton
                     style="@style/TabRadioButtonStyle"
+                    android:text="@string/radiobutton_recommend"
+                    android:id="@+id/btn_recommend"
+                    />
+                <RadioButton
+                    style="@style/TabRadioButtonStyle"
                     android:text="@string/radiobutton_bulid"
                     android:id="@+id/btn_build"
                     />

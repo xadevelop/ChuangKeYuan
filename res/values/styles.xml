@@ -22,7 +22,7 @@
     <style name="TabRadioButtonStyle">
         <item name="android:layout_width">100dp</item>
         <item name="android:layout_height">fill_parent</item>
-        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_weight">1</item>
         <item name="android:padding">10dp</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">#000</item>
@@ -38,4 +38,26 @@
         <item name="android:layout_marginLeft">1.5dp</item>
         <item name="android:layout_marginRight">1.5dp</item>
 </style>
+    <!--建设方案ImageView-->
+    <style name="BuildImageViewStyle">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <!--建设方案TextViewTitle-->
+    <style name="BuildTextViewTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <!--建设方案TextViewDes-->
+    <style name="BuildTextViewDesStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">13dp</item>
+    </style>
 </resources>

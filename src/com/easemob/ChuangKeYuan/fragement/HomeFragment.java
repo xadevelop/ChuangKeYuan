@@ -35,6 +35,7 @@ import java.util.List;
 public class HomeFragment extends Fragment implements OnCheckedChangeListener, OnClickListener{
 
     private RadioGroup mRadioGroup;
+    private RadioButton mRadioButtonRecommend;
     private RadioButton mRadioButtonBuild;
     private RadioButton mRadioButtonTutor;
     private RadioButton mRadioButtonSpace;
@@ -44,6 +45,7 @@ public class HomeFragment extends Fragment implements OnCheckedChangeListener, O
     private RadioButton mRadioButtonStudy;
     private RadioButton mRadioButtonTool;
     private ViewPager mViewPager;
+    private Fragment recommend;
     private Fragment bulid;
     private Fragment research;
     private Fragment school;
@@ -78,7 +80,7 @@ public class HomeFragment extends Fragment implements OnCheckedChangeListener, O
         View view = inflater.from(getActivity()).inflate(R.layout.fragment_home, null);
         iniController(view);
         iniListener();
-        mRadioButtonBuild.setChecked(true);
+        mRadioButtonRecommend.setChecked(true);
         mCurrentCheckedRadioLeft = getCurrentCheckedRadioLeft();
         return view;
     }
@@ -96,47 +98,51 @@ public class HomeFragment extends Fragment implements OnCheckedChangeListener, O
         AnimationSet.setDuration(100);
         //开始上面蓝色横条图片的动画切换
         mImageView.startAnimation(AnimationSet);
-        if (checkedId == R.id.btn_build) {
+        if (checkedId == R.id.btn_recommend) {
             TranslateAnimation = new TranslateAnimation(mCurrentCheckedRadioLeft, getResources().getDimension(R.dimen.rdo1), 0f, 0f);
             AnimationSet.addAnimation(TranslateAnimation);
             mViewPager.setCurrentItem(0);// 选择某一页
 
-        } else if (checkedId == R.id.btn_tutor) {
+        } else if (checkedId == R.id.btn_build) {
             TranslateAnimation = new TranslateAnimation(mCurrentCheckedRadioLeft, getResources().getDimension(R.dimen.rdo2), 0f, 0f);
             AnimationSet.addAnimation(TranslateAnimation);
             mViewPager.setCurrentItem(1);// 选择某一页
 
-        } else if (checkedId == R.id.btn_space) {
+        } else if (checkedId == R.id.btn_tutor) {
             TranslateAnimation = new TranslateAnimation(mCurrentCheckedRadioLeft, getResources().getDimension(R.dimen.rdo3), 0f, 0f);
             AnimationSet.addAnimation(TranslateAnimation);
             mViewPager.setCurrentItem(2);// 选择某一页
 
-        } else if (checkedId == R.id.btn_school) {
+        } else if (checkedId == R.id.btn_space) {
             TranslateAnimation = new TranslateAnimation(mCurrentCheckedRadioLeft, getResources().getDimension(R.dimen.rdo4), 0f, 0f);
             AnimationSet.addAnimation(TranslateAnimation);
             mViewPager.setCurrentItem(3);// 选择某一页
 
-
-        } else if (checkedId == R.id.btn_show) {
+        } else if (checkedId == R.id.btn_school) {
             TranslateAnimation = new TranslateAnimation(mCurrentCheckedRadioLeft, getResources().getDimension(R.dimen.rdo5), 0f, 0f);
             AnimationSet.addAnimation(TranslateAnimation);
             mViewPager.setCurrentItem(4);// 选择某一页
 
-        } else if (checkedId == R.id.btn_research) {
+        } else if (checkedId == R.id.btn_show) {
             TranslateAnimation = new TranslateAnimation(mCurrentCheckedRadioLeft, getResources().getDimension(R.dimen.rdo6), 0f, 0f);
             AnimationSet.addAnimation(TranslateAnimation);
             mViewPager.setCurrentItem(5);// 选择某一页
 
-        } else if (checkedId == R.id.btn_study) {
+        } else if (checkedId == R.id.btn_research) {
             TranslateAnimation = new TranslateAnimation(mCurrentCheckedRadioLeft, getResources().getDimension(R.dimen.rdo7), 0f, 0f);
             AnimationSet.addAnimation(TranslateAnimation);
             mViewPager.setCurrentItem(6);// 选择某一页
 
-        } else if (checkedId == R.id.btn_tool) {
+        } else if (checkedId == R.id.btn_study) {
             TranslateAnimation = new TranslateAnimation(mCurrentCheckedRadioLeft, getResources().getDimension(R.dimen.rdo8), 0f, 0f);
             AnimationSet.addAnimation(TranslateAnimation);
             mViewPager.setCurrentItem(7);// 选择某一页
+        }else if (checkedId == R.id.btn_tool) {
+            TranslateAnimation = new TranslateAnimation(mCurrentCheckedRadioLeft, getResources().getDimension(R.dimen.rdo9), 0f, 0f);
+            AnimationSet.addAnimation(TranslateAnimation);
+            mViewPager.setCurrentItem(8);// 选择某一页
         }
+
         //更新当前蓝色横条距离左边的距离
         mCurrentCheckedRadioLeft = getCurrentCheckedRadioLeft();
 
@@ -151,22 +157,24 @@ public class HomeFragment extends Fragment implements OnCheckedChangeListener, O
      */
     private float getCurrentCheckedRadioLeft() {
         // TODO Auto-generated method stub
-        if (mRadioButtonBuild.isChecked()) {
+        if (mRadioButtonRecommend.isChecked()) {
             return getResources().getDimension(R.dimen.rdo1);
-        } else if (mRadioButtonTutor.isChecked()) {
+        } else if (mRadioButtonBuild.isChecked()) {
             return getResources().getDimension(R.dimen.rdo2);
-        } else if (mRadioButtonSpace.isChecked()) {
+        } else if (mRadioButtonTutor.isChecked()) {
             return getResources().getDimension(R.dimen.rdo3);
-        } else if (mRadioButtonSchool.isChecked()) {
+        } else if (mRadioButtonSpace.isChecked()) {
             return getResources().getDimension(R.dimen.rdo4);
-        } else if (mRadioButtonShow.isChecked()) {
+        } else if (mRadioButtonSchool.isChecked()) {
             return getResources().getDimension(R.dimen.rdo5);
-        } else if (mRadioButtonResearch.isChecked()) {
+        } else if (mRadioButtonShow.isChecked()) {
             return getResources().getDimension(R.dimen.rdo6);
-        } else if (mRadioButtonStudy.isChecked()) {
+        } else if (mRadioButtonResearch.isChecked()) {
             return getResources().getDimension(R.dimen.rdo7);
-        } else if (mRadioButtonTool.isChecked()) {
+        } else if (mRadioButtonStudy.isChecked()) {
             return getResources().getDimension(R.dimen.rdo8);
+        }else if (mRadioButtonTool.isChecked()) {
+            return getResources().getDimension(R.dimen.rdo9);
         }
         return 0f;
     }
@@ -181,6 +189,7 @@ public class HomeFragment extends Fragment implements OnCheckedChangeListener, O
     private void iniController(View view) {
         //页签
         mRadioGroup = (RadioGroup) view.findViewById(R.id.radioGroup);
+        mRadioButtonRecommend = (RadioButton) view.findViewById(R.id.btn_recommend);
         mRadioButtonBuild = (RadioButton) view.findViewById(R.id.btn_build);
         mRadioButtonTutor = (RadioButton) view.findViewById(R.id.btn_tutor);
         mRadioButtonSpace = (RadioButton) view.findViewById(R.id.btn_space);
@@ -208,15 +217,18 @@ public class HomeFragment extends Fragment implements OnCheckedChangeListener, O
 
         mViewPager = (ViewPager) view.findViewById(R.id.vp_homefragment_viewpager);
         mList = new ArrayList<Fragment>();
-        bulid = new HomeFragment_bulid();
-        research = new HomeFragment_research();
+        recommend = new HomeFragment_recommend();
+        bulid = new HomeFragment_build();
+        tutor = new HomeFragment_tutor();
+        space = new HomeFragment_space();
         school = new HomeFragment_school();
         show = new HomeFragment_show();
+        research = new HomeFragment_research();
         study = new HomeFragment_study();
-        space = new HomeFragment_space();
         tool = new HomeFragment_tool();
-        tutor = new HomeFragment_tutor();
+
         //将子页面添加到集合中
+        mList.add(recommend);
         mList.add(bulid);
         mList.add(tutor);
         mList.add(space);
@@ -274,27 +286,30 @@ public class HomeFragment extends Fragment implements OnCheckedChangeListener, O
         public void onPageSelected(int position) {
             switch (position) {
                 case 0:
-                    mRadioButtonBuild.setChecked(true);
+                    mRadioButtonRecommend.setChecked(true);
                     break;
                 case 1:
-                    mRadioButtonTutor.setChecked(true);
+                    mRadioButtonBuild.setChecked(true);
                     break;
                 case 2:
-                    mRadioButtonSpace.setChecked(true);
+                    mRadioButtonTutor.setChecked(true);
                     break;
                 case 3:
-                    mRadioButtonSchool.setChecked(true);
+                    mRadioButtonSpace.setChecked(true);
                     break;
                 case 4:
-                    mRadioButtonShow.setChecked(true);
+                    mRadioButtonSchool.setChecked(true);
                     break;
                 case 5:
-                    mRadioButtonResearch.setChecked(true);
+                    mRadioButtonShow.setChecked(true);
                     break;
                 case 6:
-                    mRadioButtonStudy.setChecked(true);
+                    mRadioButtonResearch.setChecked(true);
                     break;
                 case 7:
+                    mRadioButtonStudy.setChecked(true);
+                    break;
+                case 8:
                     mRadioButtonTool.setChecked(true);
                     break;
             }

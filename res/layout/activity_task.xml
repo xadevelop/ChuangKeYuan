@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+<include layout="@layout/title_bar"/>
+    <RadioGroup
+        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/rg_tasktivity_radiogroup"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbtn_tasktivity_responsible"
+            android:text="我负责的"
+            android:textSize="20sp"
+            android:textColor="@color/color_task_text"
+            android:layout_marginLeft="5dp"
+            android:button="@null"
+            android:checked="true"/>
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbtn_tasktivity_help"
+            android:text="我协助的"
+            android:textSize="20sp"
+            android:textColor="@color/color_task_text"
+            android:button="@null"
+            />
+    </RadioGroup>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="@android:color/darker_gray"
+    />
+    <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/space"
+    >
+</FrameLayout>
+</LinearLayout>

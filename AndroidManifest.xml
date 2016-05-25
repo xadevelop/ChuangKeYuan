@@ -92,7 +92,30 @@
         <activity android:name="com.easemob.ChuangKeYuan.ui.SearchActivity"/>
         <!--地址栏-->
         <activity android:name="com.easemob.ChuangKeYuan.ui.AdressActivity"/>
-
+        <!--创客教育方案-->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.TeachActivity"/>
+        <!--创客教育方案  标题1-->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.FirstTeachActivity"/>
+        <!--项目策划方案-->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.PlanActivity"/>
+        <!--项目设计方案-->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.DesignActivity"/>
+        <!--创客教师介绍-->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.TeacherActivity"/>
+        <!--创客教师1-->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.FirstTeacherActivity"/>
+        <!--创客家长介绍-->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.ParentsActivity"/>
+        <!--创客家长1-->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.FirstParentsActivity"/>
+        <!--创客空间 我的任务单-->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.TaskActivity"/>
+        <!--创客空间 我负责的-->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.ResponsibleActivity"/>
+        <!--创客空间 我协助的-->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.HelpActivity"/>
+        <!--创客空间 班级小创客-->
+        <activity android:name="com.easemob.ChuangKeYuan.ui.ClassActivity"/>
         <!-- 登陆 -->
         <activity
             android:name="com.easemob.ChuangKeYuan.ui.LoginActivity"
