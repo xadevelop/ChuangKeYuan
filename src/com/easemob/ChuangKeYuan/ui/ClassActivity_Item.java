@@ -3,6 +3,7 @@ package com.easemob.ChuangKeYuan.ui;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.SimpleAdapter;
@@ -30,8 +31,8 @@ public class ClassActivity_Item extends Activity {
     SimpleAdapter sim_adapter;
 
     TextView mDes;
-    TextView mBack;
-    TextView mMore;
+    ImageView mBack;
+    ImageView mMore;
 
     // 图片封装为一个数组
     private int[] icon = { R.drawable.gv_1, R.drawable.gv_2,
@@ -59,8 +60,8 @@ public class ClassActivity_Item extends Activity {
         lv_class_item = (ListView) findViewById(R.id.lv_class_item);
 
         mDes = (TextView) findViewById(R.id.tv_teach_title);
-        mBack = (TextView) findViewById(R.id.tv_teach_back);
-        mMore = (TextView) findViewById(R.id.tv_teach_more);
+        mBack = (ImageView) findViewById(R.id.iv_teach_back);
+        mMore = (ImageView) findViewById(R.id.iv_teach_more);
     }
     private void event() {
 

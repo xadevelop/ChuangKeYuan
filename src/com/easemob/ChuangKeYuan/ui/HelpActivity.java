@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.easemob.ChuangKeYuan.R;
@@ -20,7 +21,7 @@ public class HelpActivity extends Activity implements View.OnClickListener{
     public TextView mDownload;
     public TextView mSearch;
     public TextView mAdress;
-    public TextView mBack;
+    public ImageView mBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +35,7 @@ public class HelpActivity extends Activity implements View.OnClickListener{
     private void initTitlebar(View view) {
         //标题栏
         mTitle = (TextView) findViewById(R.id.tv_titlebar_title);
-        mBack = (TextView) findViewById(R.id.tv_titlebar_back);
+        mBack = (ImageView) findViewById(R.id.iv_titlebar_back);
         mDes = (TextView) findViewById(R.id.tv_titlebar_des);
         mRecord = (TextView) findViewById(R.id.tv_titlebar_record);
         mDownload = (TextView) findViewById(R.id.tv_titlebar_download);
@@ -48,7 +49,7 @@ public class HelpActivity extends Activity implements View.OnClickListener{
         mRecord.setVisibility(View.GONE);
         mDownload.setVisibility(View.GONE);
         mSearch.setVisibility(View.GONE);
-        mAdress.setText("更多");
+        mAdress.setText("more");
 
         mBack.setOnClickListener(this);
     }
@@ -56,7 +57,7 @@ public class HelpActivity extends Activity implements View.OnClickListener{
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.tv_titlebar_back:
+            case R.id.iv_titlebar_back:
                 finish();
                 break;
             case R.id.tv_titlebar_adress:

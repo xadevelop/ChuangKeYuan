@@ -3,6 +3,7 @@ package com.easemob.ChuangKeYuan.ui;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.SimpleAdapter;
@@ -29,8 +30,8 @@ public class HomeAddWorkActivity extends Activity{
     SimpleAdapter sim_adapter;
 
     TextView mDes;
-    TextView mBack;
-    TextView mMore;
+    ImageView mBack;
+    ImageView mMore;
     // 图片封装为一个数组
     private int[] icon = { R.drawable.gv_1, R.drawable.gv_2,
             R.drawable.gv_3, R.drawable.gv_4};
@@ -70,7 +71,7 @@ public class HomeAddWorkActivity extends Activity{
         //新建适配器
         sim_adapter = new SimpleAdapter(HomeAddWorkActivity.this,
                 data_list, R.layout.activity_parents_listview,
-                new String[]{"image","text"}, new int[]{R.id.image,R.id.text});
+                new String[]{"image","text"}, new int[]{R.id.iv_parents_listview,R.id.tv_parents_listview});
         //配置适配器
         lv_class_item.setAdapter(sim_adapter);
     }
@@ -83,12 +84,12 @@ public class HomeAddWorkActivity extends Activity{
 
         lv_class_item = (ListView) findViewById(R.id.lv_class_item);
 
+        rl_class_item.setBackgroundResource(R.drawable.a);
+
         mDes = (TextView) findViewById(R.id.tv_teach_title);
-        mBack = (TextView) findViewById(R.id.tv_teach_back);
-        mMore = (TextView) findViewById(R.id.tv_teach_more);
+        mDes.setText("家庭工作访");
+        mBack = (ImageView) findViewById(R.id.iv_teach_back);
+        mMore = (ImageView) findViewById(R.id.iv_teach_more);
     }
-
-
-
 
 }

@@ -172,7 +172,7 @@ public class GroupsActivity extends BaseActivity {
 	
 
 	/**
-	 * 返回
+	 * back
 	 * 
 	 * @param view
 	 */

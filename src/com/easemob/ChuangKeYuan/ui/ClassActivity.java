@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.easemob.ChuangKeYuan.R;
@@ -16,6 +17,13 @@ public class ClassActivity extends Activity implements View.OnClickListener{
 
     TextView tv1,tv2,tv3,tv4,tv5,tv6;
 
+    public TextView mTitle;
+    public TextView mDes;
+    public TextView mRecord;
+    public TextView mDownload;
+    public TextView mSearch;
+    public TextView mAdress;
+    public ImageView mBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +43,31 @@ public class ClassActivity extends Activity implements View.OnClickListener{
         tv4 = (TextView) findViewById(R.id.tv4);
         tv5 = (TextView) findViewById(R.id.tv5);
         tv6 = (TextView) findViewById(R.id.tv6);
+
+        //标题栏
+        mTitle = (TextView) findViewById(R.id.tv_titlebar_title);
+        mBack = (ImageView) findViewById(R.id.iv_titlebar_back);
+        mDes = (TextView) findViewById(R.id.tv_titlebar_des);
+        mRecord = (TextView) findViewById(R.id.tv_titlebar_record);
+        mDownload = (TextView) findViewById(R.id.tv_titlebar_download);
+        mSearch = (TextView) findViewById(R.id.tv_titlebar_search);
+        mAdress = (TextView) findViewById(R.id.tv_titlebar_adress);
+
+        mTitle.setVisibility(View.GONE);
+        mBack.setVisibility(View.VISIBLE);
+        mDes.setVisibility(View.VISIBLE);
+        mDes.setText("小创客");
+        mRecord.setVisibility(View.GONE);
+        mDownload.setVisibility(View.GONE);
+        mSearch.setVisibility(View.GONE);
+        mAdress.setText("...");
+
+        mBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         tv1.setOnClickListener(this);
         tv2.setOnClickListener(this);

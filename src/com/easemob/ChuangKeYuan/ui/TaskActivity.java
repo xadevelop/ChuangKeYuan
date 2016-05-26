@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.view.Window;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -27,7 +28,7 @@ public class TaskActivity extends FragmentActivity implements View.OnClickListen
     public TextView mDownload;
     public TextView mSearch;
     public TextView mAdress;
-    public TextView mBack;
+    public ImageView mBack;
 
     private RadioGroup radioGroup;
     private FragmentManager fragmentManager;
@@ -83,7 +84,7 @@ public class TaskActivity extends FragmentActivity implements View.OnClickListen
     private void initTitlebar() {
         //标题栏
         mTitle = (TextView) findViewById(R.id.tv_titlebar_title);
-        mBack = (TextView) findViewById(R.id.tv_titlebar_back);
+        mBack = (ImageView) findViewById(R.id.iv_titlebar_back);
         mDes = (TextView) findViewById(R.id.tv_titlebar_des);
         mRecord = (TextView) findViewById(R.id.tv_titlebar_record);
         mDownload = (TextView) findViewById(R.id.tv_titlebar_download);
@@ -105,7 +106,7 @@ public class TaskActivity extends FragmentActivity implements View.OnClickListen
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.tv_titlebar_back:
+            case R.id.iv_titlebar_back:
                 finish();
                 break;
             case R.id.tv_titlebar_adress:

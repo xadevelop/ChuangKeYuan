@@ -1,3 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\build\intermediates\exploded-aar\ChuangKeYuan\EaseUI\unspecified\jars\libs\org.apache.http.legacy.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d56b7ed137a7ce0d0cd78f3825f16a659c54594c">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\8\org.apache.http.legacy_f51339cb19515b8b6cf7781c3d595c787312245a\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="78a4b9186a965c7620df2b2163eb7e22df2a016d">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_15d75407ea215cd7cd405ff301326f48fa138e6a\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="82b262c1f1e2b944b06b375a3bc0b866a1b24049">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e779d4088a0919685fb28e0a391b8a26c50b682e\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\libs\BmobSDK_V3.4.6_0415.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="41f54bb2846705eea0de5df48ddbcba378bd54e5">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\2\BmobSDK_V3.4.6_0415_212a481becd2632e51c421b9a03cf5c2ab359d31\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\build\intermediates\exploded-aar\ChuangKeYuan\EaseUI\unspecified\jars\libs\glide-3.6.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4c37273d56a1750a1bceda5dbeccf958057e8f86">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\8\glide-3.6.1_2982a5e67bef30d7c988be233f6ad868708c6e94\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\build\intermediates\exploded-aar\ChuangKeYuan\EaseUI\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="dc64159d40c8e502e3072ccfc568b07e48e9e4ac">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\8\android-support-v4_9f6a6d6a58703671490b93956358d39648fc742a\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\libs\Parse-1.9.4.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="56c22930b5d4f77015b6a40c7f14103d3e101001">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\2\Parse-1.9.4_5502462754b52ee09ca5e8a3b2631160152fa5d1\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\build\intermediates\exploded-aar\ChuangKeYuan\EaseUI\unspecified\jars\libs\easemobchat_2.2.8.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a3d4a4b471bbb8b7508592db814a213756c37150">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\8\easemobchat_2.2.8_92eb93794bddfc62153ad5deb4f97bde3caaf7ea\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_9b6a7722db67ca0b6bf048e4cdbceb7d14d398d5\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\libs\umeng-analytics-v5.2.4.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0f9eccf79ae6006e4346725b09114182dca0c023">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-analytics-v5.2.4_66cb355de3435d7bb8c6be691203296608442633\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\libs\bolts-android-1.2.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\2\bolts-android-1.2.0_fd26641c047d09a0dd9d3bfd041d6085e3f4a85d\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\build\intermediates\exploded-aar\ChuangKeYuan\EaseUI\unspecified\jars\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="48ecb250cba922e470fd0d9c628f81aa98fa10f2">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\8\BaiduLBS_Android_20dbd896a02d3d7e6ef00534ccd8c1ddcb3864a0\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\libs\okio-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\2\okio-1.4.0_92c9d5de5e380ab8f260c04929cf2b1b8aa6c92d\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\libs\umeng-update-v2.6.0.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="7bfeea30c4995f90a4374ce4177772a4579f2797">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-update-v2.6.0.1_3a23ad246d0b77a3ec9d0fa8bca3d97fadbcd74a\classes.dex" />
+    </item>
+    <item
+        jar="W:\AS-Works\ChuangKeYuan\libs\okhttp-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="W:\AS-Works\ChuangKeYuan\build\intermediates\transforms\dex\debug\folders\1000\2\okhttp-2.4.0_5abdf82a20f30774deeb9317eda4976ccd16b1c3\classes.dex" />
+    </item>
+
+</items>

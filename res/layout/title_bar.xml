@@ -14,18 +14,17 @@
         android:layout_marginLeft="10dp"
         android:text="@string/radiobutton_home"
         android:textColor="@color/black_title"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        />
 
-    <TextView
-        android:id="@+id/tv_titlebar_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/iv_titlebar_back"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
         android:layout_alignParentLeft="true"
         android:layout_centerInParent="true"
-        android:layout_marginLeft="10dp"
-        android:text="@string/Text_back"
-        android:textColor="@color/black_title"
-        android:textSize="15sp"
+        android:src="@drawable/back"
+        android:padding="4dp"
         android:visibility="gone" />
 
     <TextView

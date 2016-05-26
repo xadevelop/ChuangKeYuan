@@ -33,8 +33,8 @@ public class DesignActivity extends Activity implements View.OnClickListener{
     private ListView mListView;
 
     public TextView mTitle;
-    public TextView mMore;
-    public TextView mBack;
+    public ImageView mMore;
+    public ImageView mBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -136,8 +136,8 @@ public class DesignActivity extends Activity implements View.OnClickListener{
     private void initTitlebar() {
         //标题栏
         mTitle = (TextView) findViewById(R.id.tv_teach_title);
-        mBack = (TextView) findViewById(R.id.tv_teach_back);
-        mMore = (TextView) findViewById(R.id.tv_teach_more);
+        mBack = (ImageView) findViewById(R.id.iv_teach_back);
+        mMore = (ImageView) findViewById(R.id.iv_teach_more);
 
         mBack.setOnClickListener(this);
         mMore.setOnClickListener(this);
@@ -146,10 +146,10 @@ public class DesignActivity extends Activity implements View.OnClickListener{
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.tv_teach_back:
+            case R.id.iv_teach_back:
                 finish();
                 break;
-            case R.id.tv_teach_more:
+            case R.id.iv_teach_more:
 
                 break;
         }

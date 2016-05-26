@@ -133,7 +133,7 @@ public class BlacklistActivity extends Activity {
 	}
 
 	/**
-	 * 返回
+	 * back
 	 * 
 	 * @param view
 	 */

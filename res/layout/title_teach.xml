@@ -5,15 +5,14 @@
     android:background="@drawable/dilan_up"
     android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/tv_teach_back"
+    <ImageView
+        android:id="@+id/iv_teach_back"
         android:layout_width="50dp"
         android:layout_height="40dp"
-        android:gravity="center"
-        android:text="返回"
+        android:padding="4dp"
+        android:src="@drawable/back"
         android:layout_centerVertical="true"
-        android:textColor="@color/black_title"
-        android:textSize="15sp" />
+        />
 
     <TextView
         android:id="@+id/tv_teach_title"
@@ -24,15 +23,14 @@
         android:textColor="@color/black_title"
         android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/tv_teach_more"
+    <ImageView
+        android:id="@+id/iv_teach_more"
         android:layout_width="50dp"
         android:layout_height="40dp"
-        android:gravity="center"
-        android:text="更多"
+        android:src="@drawable/more"
+        android:padding="5dp"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:textColor="@color/black_title"
-        android:textSize="15sp" />
+         />
 
 </RelativeLayout>
