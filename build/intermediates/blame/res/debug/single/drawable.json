@@ -12,16 +12,16 @@
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\umeng_common_gradient_red.xml"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatto_bg.xml",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable\\ease_chatto_bg.xml"
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\guide_2.jpg",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\guide_2.jpg"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_voice_btn.xml",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\guide_2.jpg",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\guide_2.jpg"
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatto_bg.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable\\ease_chatto_bg.xml"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\gv_4.jpg",
@@ -48,12 +48,12 @@
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\button_red_normal.9.png"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\em_button_myprofile_selector.xml",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\em_button_myprofile_selector.xml"
-    },
-    {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_normal_shape.xml",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\em_button_myprofile_selector.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\em_button_myprofile_selector.xml"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\guide_1.jpg",
@@ -64,12 +64,12 @@
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\em_tab_contact_list_bg.xml"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\gv_3.jpg",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\gv_3.jpg"
-    },
-    {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\em_call_answer_bg.xml",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\em_call_answer_bg.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\gv_3.jpg",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\gv_3.jpg"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\em_checkbox_bg_selector.xml",
@@ -100,12 +100,12 @@
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\umeng_common_gradient_green.xml"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_focused.xml",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\dot_focused.xml"
-    },
-    {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_logout_pressed_shape.xml",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\em_btn_logout_pressed_shape.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_focused.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\dot_focused.xml"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_mm_listitem.xml",
@@ -152,6 +152,10 @@
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\umeng_update_button_ok_bg_normal.xml"
     },
     {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_home_tv_show.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\selector_home_tv_show.xml"
+    },
+    {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_back.png",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\btn_back.png"
     },
@@ -190,6 +194,10 @@
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\em_button_normal_shape.xml",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\em_button_normal_shape.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_home_tv_my.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\selector_home_tv_my.xml"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_selector.xml",
@@ -246,6 +254,10 @@
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\em_chat_video_selector.xml",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\em_chat_video_selector.xml"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_home_tv_home.xml",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable\\selector_home_tv_home.xml"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable\\em_voice_call_hangup_bg.xml",

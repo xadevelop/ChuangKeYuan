@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="48dp"
-    android:background="#3AB2FF"
+    android:background="@drawable/dilan_up"
     android:orientation="horizontal">
 
     <TextView
@@ -12,7 +12,7 @@
         android:gravity="center"
         android:text="返回"
         android:layout_centerVertical="true"
-        android:textColor="@android:color/white"
+        android:textColor="@color/black_title"
         android:textSize="15sp" />
 
     <TextView
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="幼儿园创客教育方案"
-        android:textColor="@android:color/white"
+        android:textColor="@color/black_title"
         android:textSize="20sp" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:text="更多"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:textColor="@android:color/white"
+        android:textColor="@color/black_title"
         android:textSize="15sp" />
 
 </RelativeLayout>

@@ -65,11 +65,8 @@
         android:layout_weight="8"
         android:columnWidth="80dp"
         android:horizontalSpacing="8dp"
-<<<<<<< HEAD
         android:numColumns="2"
-=======
         android:layout_marginTop="10dp"
->>>>>>> origin/master
         android:scrollbars="none"
         android:stretchMode="columnWidth"/>
 </LinearLayout>

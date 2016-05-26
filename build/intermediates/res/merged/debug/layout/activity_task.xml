@@ -17,27 +17,15 @@
 
         <RadioButton
             android:id="@+id/rbtn_tasktivity_responsible"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            style="@style/TaskRadioButtonStyle"
             android:layout_marginLeft="5dp"
-            android:layout_weight="1"
-            android:button="@null"
             android:checked="true"
-            android:gravity="center"
-            android:text="我负责的"
-            android:textColor="@color/color_task_text"
-            android:textSize="20sp" />
+            android:text="我负责的" />
 
         <RadioButton
             android:id="@+id/rbtn_tasktivity_help"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:button="@null"
-            android:gravity="center"
-            android:text="我协助的"
-            android:textColor="@color/color_task_text"
-            android:textSize="20sp" />
+            style="@style/TaskRadioButtonStyle"
+            android:text="我协助的" />
     </RadioGroup>
 
     <View
@@ -48,5 +36,5 @@
     <FrameLayout
         android:id="@+id/space"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 </LinearLayout>

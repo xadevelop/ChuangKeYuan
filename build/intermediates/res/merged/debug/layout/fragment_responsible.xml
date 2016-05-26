@@ -38,8 +38,8 @@
                 android:layout_width="103dp"
                 android:layout_height="40dp"
                 android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp"
                 android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
                 android:background="#90c420"
                 android:padding="5dp"
                 android:text="进行中"
@@ -48,6 +48,7 @@
         </RelativeLayout>
 
     </LinearLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"

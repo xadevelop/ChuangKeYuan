@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_012_cover.png",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\icon_012_cover.png"
-    },
-    {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_35.png",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ee_35.png"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_012_cover.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\icon_012_cover.png"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_035.gif",
@@ -24,12 +24,12 @@
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\umeng_update_btn_check_off_holo_light.png"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\em_input_bar_bg_active.9.png",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\em_input_bar_bg_active.9.png"
-    },
-    {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_002_cover.png",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\icon_002_cover.png"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\em_input_bar_bg_active.9.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\em_input_bar_bg_active.9.png"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\em_tab_unread_bg.9.png",
@@ -60,12 +60,12 @@
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_conversation_selected.png"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_on.png",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_dx_checkbox_on.png"
-    },
-    {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_18.png",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ee_18.png"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_on.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_dx_checkbox_on.png"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_021.gif",
@@ -148,32 +148,40 @@
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\em_settings_normal.png"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\em_type_select_btn_pressed.png",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\em_type_select_btn_pressed.png"
-    },
-    {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_login_error_icon.png",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_login_error_icon.png"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_normal.png",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_normal.png"
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\em_type_select_btn_pressed.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\em_type_select_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sy.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\sy.png"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_settings_selected.png",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_settings_selected.png"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_record_animate_09.png",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_record_animate_09.png"
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_normal.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_normal.png"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\x.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\x.png"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_8.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ee_8.png"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xiu.png",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\xiu.png"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_8.png",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ee_8.png"
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_record_animate_09.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_record_animate_09.png"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_default_image.png",
@@ -200,12 +208,12 @@
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing_f3.png"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_off.png",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_dx_checkbox_off.png"
-    },
-    {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_16.png",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ee_16.png"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_off.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_dx_checkbox_off.png"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\em_smiley_minus_btn_nor.png",
@@ -216,16 +224,16 @@
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_location_msg.9.png"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_mm_listitem_grey_normal.9.png",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_mm_listitem_grey_normal.9.png"
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\em_mm_listitem_grey_normal.9.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\em_mm_listitem_grey_normal.9.png"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_record_animate_03.png",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_record_animate_03.png"
     },
     {
-        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\em_mm_listitem_grey_normal.9.png",
-        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\em_mm_listitem_grey_normal.9.png"
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_mm_listitem_grey_normal.9.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_mm_listitem_grey_normal.9.png"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\em_welcom_logo.png",
@@ -696,6 +704,10 @@
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\umeng_update_btn_check_on_pressed_holo_light.png"
     },
     {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dilan_up.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\dilan_up.png"
+    },
+    {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_020.gif",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\icon_020.gif"
     },
@@ -754,6 +766,10 @@
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_record_animate_02.png",
         "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\exploded-aar\\ChuangKeYuan\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_record_animate_02.png"
+    },
+    {
+        "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wode.png",
+        "source": "E:\\AS-work\\CKY\\ChuangKeYuan\\res\\drawable-hdpi\\wode.png"
     },
     {
         "merged": "E:\\AS-work\\CKY\\ChuangKeYuan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\em_camera_switch_normal.9.png",

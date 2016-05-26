@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black_deep">#FF000000</color>
+    <color name="black_title">#242424</color>
     <color name="bottom_bar_normal_bg">#2D2F31</color>
     <color name="bottom_text_color_normal">#ffffff</color>
     <color name="btn_answer_normal">#2dafa3</color>
@@ -617,6 +618,15 @@
         <item name="android:textColor">#000</item>
         <item name="android:background">@drawable/radiobtn_selector</item>
         <item name="android:button">@null</item>
+    </style>
+    <style name="TaskRadioButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_task_text</item>
+        <item name="android:textSize">20sp</item>
     </style>
     <style name="bottom_line_edit_text_style" parent="@android:style/Widget.EditText">
         <item name="android:gravity">center_vertical</item>
